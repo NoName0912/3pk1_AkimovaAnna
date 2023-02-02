@@ -61,6 +61,7 @@ static int BinarySearch2(List<int> a, int x)
         return -1;
 }
 
+//Сортировка для массива
 static void SortBinInsert(int[] a)
 {
     int N = a.Length;
@@ -81,6 +82,7 @@ static void SortBinInsert(int[] a)
     }
 }
 
+//Сортировка для списка
 static void SortBinInsert2(List<int> a)
 {
     int N = a.Capacity;
